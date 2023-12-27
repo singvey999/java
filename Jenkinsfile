@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node {
-      label 'jmpsvr'
+      label 'hostname=jumpsvr'
     }
 
   }
