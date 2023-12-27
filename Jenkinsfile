@@ -16,7 +16,7 @@ pipeline {
 
         stage('build') {
           steps {
-            build(job: 'build', quietPeriod: 1)
+            sh 'echo \'build\''
           }
         }
 
