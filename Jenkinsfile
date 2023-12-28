@@ -14,7 +14,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'source /etc/profile;mvn -B -DskipTests clean package'
+        sh 'source /etc/profile.d/maven.sh;mvn -B -DskipTests clean package'
       }
     }
 
