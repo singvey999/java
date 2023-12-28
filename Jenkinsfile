@@ -15,7 +15,6 @@ pipeline {
     stage('build') {
       steps {
         sh 'whoami;hostname;pwd'
-        #sh 'hostname'
       }
     }
 
