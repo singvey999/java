@@ -14,7 +14,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'hostname;uptime'
+        sh 'mvn -B -DskipTests clean package'
       }
     }
 
