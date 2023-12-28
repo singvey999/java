@@ -14,6 +14,7 @@ pipeline {
 
     stage('build') {
       steps {
+        sh 'whoami;hostname;pwd'
         sh 'mvn -B -DskipTests clean package'
       }
     }
