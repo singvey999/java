@@ -15,7 +15,7 @@ pipeline {
     stage('build') {
       steps {
         sh 'whoami;hostname;pwd'
-        sh 'hostname;mvn -B -DskipTests clean package'
+        #sh 'hostname;mvn -B -DskipTests clean package'
       }
     }
 
