@@ -16,6 +16,11 @@ pipeline {
 	echo 'build task 01'
       }
     }
+    stage('deploy') {
+      steps {
+	echo 'deploy task 01'
+      }
+    }
   
   }
 }
