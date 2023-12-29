@@ -1,3 +1,2 @@
 pipeline {
-  /* insert new line /
 }
