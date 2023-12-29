@@ -10,6 +10,9 @@ pipeline {
         sh 'echo \'pull code\''
 	//test
       }
+      steps {
+        sh 'echo \'step 02\''
+      }
     }
   
   }
