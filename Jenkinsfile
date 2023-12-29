@@ -8,6 +8,7 @@ pipeline {
     stage('pull code') {
       steps {
         sh 'echo \'pull code\''
+	//test
       }
     }
   
