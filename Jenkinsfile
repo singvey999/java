@@ -21,6 +21,10 @@ pipeline {
 	echo 'deploy task 01'
       }
     }
-  
+  }
+  post {
+    always {
+      echo "last task"
+    }
   }
 }
