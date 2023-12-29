@@ -3,5 +3,5 @@ pipeline {
     node {
       label 'hostname=jumpsvr'
     }
-
+  }
 }
