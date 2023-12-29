@@ -4,4 +4,6 @@ pipeline {
       label 'hostname=jumpsvr'
     }
   }
+  stages {
+  }
 }
