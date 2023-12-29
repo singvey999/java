@@ -11,6 +11,11 @@ pipeline {
 	echo 'task 02'
       }
     }
+    stage('build code') {
+      steps {
+	echo 'build task 01'
+      }
+    }
   
   }
 }
