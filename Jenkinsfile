@@ -5,9 +5,9 @@ pipeline {
     }
   }
   stages {
-    stage('test') {
+    stage('pull code') {
       steps {
-        sh 'echo \'test\''
+        sh 'echo \'pull code\''
       }
     }
   
